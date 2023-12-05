@@ -1,14 +1,14 @@
 @media only screen and (max-width: 576px) {
     /* ========== ARTIKEL HOME ========== */
     .home {
-        padding: 0 40px !important;
+        padding: 80px 10px 0 10px !important;
     }
     .wrapper-main .home .title-home h1 {
         font-size: 28px !important;
     }
     /* ========== ARTIKEL ABOUT ========== */
     .about {
-        padding: 30px 40px !important;
+        padding: 30px 20px 0 20px !important;
     }
     .wrapper-main .about .title-about .menu-about {
         flex-direction: column;
@@ -28,7 +28,7 @@
 
     /* ========== ARTIKEL MENTOR ========== */
     .mentor .title-mentor {
-        padding: 0 40px !important;
+        padding: 0 20px !important;
     }
 }
 
@@ -84,7 +84,7 @@
 @media only screen and (max-width: 991px) {
     /* ========== NAVBAR ========== */
     .wrapper-header {
-        padding: 20px 40px !important;
+        padding: 20px 15px !important;
     }
     .wrapper-header .wrapper-nav .list-group {
         position: fixed;
@@ -110,7 +110,7 @@
 
     /* ========== ARTIKEL HOME ========== */
     .home {
-        padding: 10px 40px !important;
+        padding: 180px 15px !important;
     }
     .wrapper-main .home {
         flex-direction: column;
@@ -127,7 +127,7 @@
 
     /* ========== ARTIKEL ABOUT ========== */
     .about {
-        padding: 100px 40px 0 40px !important;
+        padding: 100px 15px 0 15px !important;
     }
     .wrapper-main .about .title-about .menu-about ul li p {
         font-size: 14px;
