@@ -1,0 +1,115 @@
+@media only screen and (max-width: 576px) {
+    /* ========== ARTIKEL ABOUT ========== */
+    .wrapper-main .about .title-about .menu-about {
+        flex-direction: column;
+    }
+    .wrapper-main .about .wrapper-aside .card {
+        flex-direction: column;
+    }
+    .wrapper-main .about .wrapper-aside .card .wrapper-images img {
+        width: 100%;
+    }
+    .wrapper-main .about .wrapper-aside .card .wrapper-profile {
+        width: 100%;
+    }
+    .wrapper-main .about .title-about .menu-about ul li p {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* ========== NAVBAR ========== */
+    .wrapper-header {
+        padding: 20px 20px;
+    }
+    /* ========== MAIN ========== */
+    .wrapper-main {
+        padding: 200px 20px;
+    }
+    /* ========== ARTIKEL HOME */
+    .home .title-home .award span {
+        font-size: 13px;
+    }
+    .home .title-home h1 {
+        font-size: 30px;
+    }
+
+    /* ========== ARTIKEL ABOUT ========== */
+    .about {
+        flex-direction: column;
+    }
+    .about .title-about.menu-about {
+        flex-direction: row;
+    }
+    .wrapper-aside {
+        margin-top: 40px;
+    }
+    .wrapper-main .about .wrapper-aside {
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+    .wrapper-main .about .wrapper-aside .card {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .wrapper-main .about .wrapper-aside .card .wrapper-images img {
+        width: 200px;
+    }
+    .wrapper-main .about .wrapper-aside .card .wrapper-profile {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    /* ========== NAVBAR ========== */
+    .wrapper-header {
+        padding: 20px 20px;
+    }
+    .wrapper-header .wrapper-nav .list-group {
+        position: fixed;
+        top: 75px;
+        left: 0;
+        height: 300px;
+        width: 100%;
+        display: block;
+        background-color: #fff;
+        text-align: center;
+    }
+    .wrapper-header .wrapper-nav .list-group .item-list {
+        margin: 40px 0;
+    }
+    .wrapper-header .humburger {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .wrapper-header .active {
+        display: none;
+    }
+
+    /* ========== ARTIKEL HOME ========== */
+    .wrapper-main .home {
+        flex-direction: column;
+    }
+    .wrapper-main .home .title-home h1 {
+        font-size: 45px;
+    }
+    .wrapper-main .home .title-home .award span {
+        font-size: 13px;
+    }
+    .home .img-home img {
+        margin: 30px 0 0 0;
+    }
+
+    /* ========== MAIN ========== */
+    .wrapper-main {
+        padding: 150px 20px;
+    }
+
+    /* ========== ARTIKEL ABOUT ========== */
+    .wrapper-main .about .title-about .menu-about ul li p {
+        font-size: 14px;
+        text-align: start;
+    }
+}
