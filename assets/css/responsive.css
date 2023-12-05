@@ -1,4 +1,8 @@
 @media only screen and (max-width: 576px) {
+    /* ========== ARTIKEL HOME ========== */
+    .wrapper-main .home .title-home h1 {
+        font-size: 28px !important;
+    }
     /* ========== ARTIKEL ABOUT ========== */
     .wrapper-main .about .title-about .menu-about {
         flex-direction: column;
