@@ -1,9 +1,15 @@
 @media only screen and (max-width: 576px) {
     /* ========== ARTIKEL HOME ========== */
+    .home {
+        padding: 0 40px !important;
+    }
     .wrapper-main .home .title-home h1 {
         font-size: 28px !important;
     }
     /* ========== ARTIKEL ABOUT ========== */
+    .about {
+        padding: 30px 40px !important;
+    }
     .wrapper-main .about .title-about .menu-about {
         flex-direction: column;
     }
@@ -19,18 +25,22 @@
     .wrapper-main .about .title-about .menu-about ul li p {
         font-size: 15px !important;
     }
+
+    /* ========== ARTIKEL MENTOR ========== */
+    .mentor .title-mentor {
+        padding: 0 40px !important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
     /* ========== NAVBAR ========== */
     .wrapper-header {
-        padding: 20px 20px;
-    }
-    /* ========== MAIN ========== */
-    .wrapper-main {
-        padding: 200px 20px;
+        padding: 20px 40px !important;
     }
     /* ========== ARTIKEL HOME */
+    .home {
+        padding: 180px 40px 0 40px !important;
+    }
     .home .title-home .award span {
         font-size: 13px;
     }
@@ -41,6 +51,7 @@
     /* ========== ARTIKEL ABOUT ========== */
     .about {
         flex-direction: column;
+        padding: 50px 40px !important;
     }
     .about .title-about.menu-about {
         flex-direction: row;
@@ -63,12 +74,17 @@
     .wrapper-main .about .wrapper-aside .card .wrapper-profile {
         max-width: 500px;
     }
+
+    /* ========== ARTIKEL MENTOR ========== */
+    .mentor .title-mentor {
+        padding: 0 40px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
     /* ========== NAVBAR ========== */
     .wrapper-header {
-        padding: 20px 20px;
+        padding: 20px 40px !important;
     }
     .wrapper-header .wrapper-nav .list-group {
         position: fixed;
@@ -93,6 +109,9 @@
     }
 
     /* ========== ARTIKEL HOME ========== */
+    .home {
+        padding: 10px 40px !important;
+    }
     .wrapper-main .home {
         flex-direction: column;
     }
@@ -106,14 +125,17 @@
         margin: 30px 0 0 0;
     }
 
-    /* ========== MAIN ========== */
-    .wrapper-main {
-        padding: 150px 20px;
-    }
-
     /* ========== ARTIKEL ABOUT ========== */
+    .about {
+        padding: 100px 40px 0 40px !important;
+    }
     .wrapper-main .about .title-about .menu-about ul li p {
         font-size: 14px;
         text-align: start;
+    }
+
+    /* ========== ARTIKEL MENTOR ========== */
+    .mentor .title-mentor {
+        padding: 0 40px;
     }
 }
