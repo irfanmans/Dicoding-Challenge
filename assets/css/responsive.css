@@ -110,7 +110,7 @@
 
     /* ========== ARTIKEL HOME ========== */
     .home {
-        padding: 180px 15px !important;
+        padding: 180px 15px 0 15px !important;
     }
     .wrapper-main .home {
         flex-direction: column;
@@ -137,5 +137,25 @@
     /* ========== ARTIKEL MENTOR ========== */
     .mentor .title-mentor {
         padding: 0 40px;
+    }
+    .mentor .title-mentor h1 {
+        font-size: 30px;
+        margin-bottom: 3rem;
+    }
+    .wrapper-carousel .mentor-group-1 .card-brand {
+        width: 227px;
+        height: 90px;
+    }
+    .wrapper-carousel .mentor-group-1 .card-brand .logo {
+        height: 50px;
+        margin-top: 20px;
+    }
+    .wrapper-carousel-left .mentor-group-1 .card-brand {
+        width: 227px;
+        height: 90px;
+    }
+    .wrapper-carousel-left .mentor-group-1 .card-brand .logo {
+        height: 50px;
+        margin-top: 20px;
     }
 }
