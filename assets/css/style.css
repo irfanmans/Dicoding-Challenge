@@ -134,6 +134,8 @@ body {
 .about .title-about p {
     margin-top: 20px;
     text-align: start;
+    line-height: 25px;
+    color: #808080;
 }
 .about .title-about .menu-about {
     display: flex;
@@ -198,6 +200,8 @@ body {
     margin-top: 20px;
     font-size: 13px;
     text-align: justify;
+    line-height: 20px;
+    color: #808080;
 }
 
 /* ========== ARTIKEL MENTOR ========== */

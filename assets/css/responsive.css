@@ -10,6 +10,9 @@
     .about {
         padding: 30px 20px 0 20px !important;
     }
+    .about .title-about p {
+        text-align: justify;
+    }
     .wrapper-main .about .title-about .menu-about {
         flex-direction: column;
     }
@@ -110,7 +113,7 @@
 
     /* ========== ARTIKEL HOME ========== */
     .home {
-        padding: 180px 15px 0 15px !important;
+        padding: 120px 15px 0 15px !important;
     }
     .wrapper-main .home {
         flex-direction: column;
