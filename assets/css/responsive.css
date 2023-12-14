@@ -31,7 +31,14 @@
 
     /* ========== ARTIKEL MENTOR ========== */
     .mentor .title-mentor {
-        padding: 0 20px !important;
+        padding: 0 20px;
+    }
+    .mentor .title-mentor h1 {
+        font-size: 2rem;
+    }
+    .wrapper-mentor .mentor_1 {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -77,11 +84,6 @@
     .wrapper-main .about .wrapper-aside .card .wrapper-profile {
         max-width: 500px;
     }
-
-    /* ========== ARTIKEL MENTOR ========== */
-    .mentor .title-mentor {
-        padding: 0 40px;
-    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -119,7 +121,7 @@
         flex-direction: column;
     }
     .wrapper-main .home .title-home h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
     .wrapper-main .home .title-home .award span {
         font-size: 13px;
@@ -139,26 +141,6 @@
 
     /* ========== ARTIKEL MENTOR ========== */
     .mentor .title-mentor {
-        padding: 0 40px;
-    }
-    .mentor .title-mentor h1 {
-        font-size: 25px;
-        margin-bottom: 3rem;
-    }
-    .wrapper-carousel .mentor-group-1 .card-brand {
-        width: 227px;
-        height: 90px;
-    }
-    .wrapper-carousel .mentor-group-1 .card-brand .logo {
-        height: 50px;
-        margin-top: 20px;
-    }
-    .wrapper-carousel-left .mentor-group-1 .card-brand {
-        width: 227px;
-        height: 90px;
-    }
-    .wrapper-carousel-left .mentor-group-1 .card-brand .logo {
-        height: 50px;
-        margin-top: 20px;
+        padding: 0 20px;
     }
 }
