@@ -249,6 +249,7 @@ body {
 }
 .mentor .wrapper-mentor .mentor-1 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
@@ -258,6 +259,7 @@ body {
 }
 .mentor .wrapper-mentor .mentor-2 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     margin-top: 50px;
     gap: 50px;

@@ -36,9 +36,17 @@
     .mentor .title-mentor h1 {
         font-size: 2rem;
     }
-    .wrapper-mentor .mentor_1 {
-        display: flex;
-        flex-direction: column;
+    .mentor .wrapper-mentor .mentor-1 {
+        gap: 20px;
+    }
+    .mentor .wrapper-mentor .mentor-2 {
+        gap: 20px;
+    }
+    .mentor .wrapper-mentor .mentor-1 img {
+        width: 170px;
+    }
+    .mentor .wrapper-mentor .mentor-2 img {
+        width: 170px;
     }
 }
 
