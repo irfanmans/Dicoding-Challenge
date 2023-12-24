@@ -323,9 +323,9 @@ body {
 .card-14,
 .card-15,
 .card-16 {
-    width: 17rem;
+    width: 19rem;
     margin: 0 auto;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 10px;
     border-radius: 10px;
 }
@@ -357,36 +357,3 @@ body {
     font-size: 14px;
     margin-top: 10px;
 }
-
-/* .gallery .wrapper-gallery-img .card-1 img,
-.gallery .wrapper-gallery-img .card-2 img,
-.gallery .wrapper-gallery-img .card-3 img,
-.gallery .wrapper-gallery-img .card-4 img,
-.gallery .wrapper-gallery-img .card-5 img {
-    width: 20%;
-} */
-/* .wrapper-gallery-img .card-1 img {
-    width: 20%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.wrapper-gallery-img .card-2 img {
-    width: 20%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.wrapper-gallery-img .card-3 img {
-    width: 20%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.wrapper-gallery-img .card-4 img {
-    width: 20%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.wrapper-gallery-img .card-5 img {
-    width: 20%;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
