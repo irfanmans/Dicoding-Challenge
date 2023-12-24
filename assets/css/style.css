@@ -351,9 +351,11 @@ body {
 }
 .card-detail h1 {
     font-size: 20px;
+    margin-top: 15px;
 }
 .card-detail p {
     font-size: 14px;
+    margin-top: 10px;
 }
 
 /* .gallery .wrapper-gallery-img .card-1 img,
