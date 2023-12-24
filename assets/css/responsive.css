@@ -92,6 +92,14 @@
     .wrapper-main .about .wrapper-aside .card .wrapper-profile {
         max-width: 500px;
     }
+
+    /* ========== ARTIKEL MENTOR ========== */
+    .mentor .wrapper-mentor .mentor-1 img {
+        width: 150px;
+    }
+    .mentor .wrapper-mentor .mentor-2 img {
+        width: 150px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -150,5 +158,11 @@
     /* ========== ARTIKEL MENTOR ========== */
     .mentor .title-mentor {
         padding: 0 20px;
+    }
+    .mentor .wrapper-mentor .mentor-1 img {
+        width: 180px;
+    }
+    .mentor .wrapper-mentor .mentor-2 img {
+        width: 180px;
     }
 }
