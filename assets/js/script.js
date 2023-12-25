@@ -14,6 +14,6 @@ function openModal(src) {
 }
 
 function closeModal() {
-    let modal = document.getElementById("myModal");
+    let modal = document.getElementById("modal");
     modal.style.display = "none";
 }
