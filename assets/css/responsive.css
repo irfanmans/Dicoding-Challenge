@@ -29,26 +29,6 @@
         font-size: 15px !important;
     }
 
-    /* ========== ARTIKEL MENTOR ========== */
-    .mentor .title-mentor {
-        padding: 0 20px;
-    }
-    .mentor .title-mentor h1 {
-        font-size: 2rem;
-    }
-    .mentor .wrapper-mentor .mentor-1 {
-        gap: 20px;
-    }
-    .mentor .wrapper-mentor .mentor-2 {
-        gap: 20px;
-    }
-    .mentor .wrapper-mentor .mentor-1 img {
-        width: 170px;
-    }
-    .mentor .wrapper-mentor .mentor-2 img {
-        width: 170px;
-    }
-
     /* ========== ARTIKEL GALLERY ========== */
     .gallery {
         padding: 70px 20px;
@@ -120,14 +100,6 @@
         max-width: 500px;
     }
 
-    /* ========== ARTIKEL MENTOR ========== */
-    .mentor .wrapper-mentor .mentor-1 img {
-        width: 150px;
-    }
-    .mentor .wrapper-mentor .mentor-2 img {
-        width: 150px;
-    }
-
     /* ========== ARTIKEL CONTACT ========== */
     .contact {
         padding: 70px 20px;
@@ -191,16 +163,5 @@
     .wrapper-main .about .title-about .menu-about ul li p {
         font-size: 14px;
         text-align: start;
-    }
-
-    /* ========== ARTIKEL MENTOR ========== */
-    .mentor .title-mentor {
-        padding: 0 20px;
-    }
-    .mentor .wrapper-mentor .mentor-1 img {
-        width: 180px;
-    }
-    .mentor .wrapper-mentor .mentor-2 img {
-        width: 180px;
     }
 }

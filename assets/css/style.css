@@ -61,15 +61,6 @@ body {
     flex-wrap: wrap;
     align-items: center;
 }
-
-.home .title-home .award {
-    width: fit-content;
-    border-radius: 20px;
-    display: flex;
-    gap: 10px;
-    padding: 8px 16px 8px 16px;
-    background-color: #e5e4ff;
-}
 .title-home,
 .img-home {
     flex: 1;
@@ -88,10 +79,18 @@ body {
     line-height: 27px;
 }
 .home .img-home img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 50px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+.home .img-home img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .btn-group {
     margin-top: 25px;
@@ -109,7 +108,7 @@ body {
 
 /* ========== ARTIKEL ABOUT ========== */
 .about {
-    padding: 80px 80px 0 80px;
+    padding: 150px 80px 0 80px;
     display: flex;
 }
 .title-about {
@@ -218,70 +217,6 @@ body {
     transition: all 0.5s;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     color: #fff;
-}
-
-/* ========== ARTIKEL MENTOR ========== */
-.mentor {
-    margin-top: 5rem;
-    border-radius: 50px;
-    padding: 100px 0;
-    flex-wrap: wrap;
-    background-color: #581fc1;
-}
-.mentor .title-mentor {
-    padding: 0 80px;
-    text-align: center;
-    margin-bottom: 4rem;
-}
-.mentor .title-mentor span {
-    font-family: "Ephesis", cursive;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffcb50;
-    letter-spacing: 2px;
-}
-.mentor .title-mentor h1 {
-    font-size: 35px;
-    color: #fff;
-}
-.mentor .wrapper-mentor {
-    max-width: 991px;
-    margin: 20px auto;
-}
-.mentor .wrapper-mentor .mentor-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-.mentor .wrapper-mentor .mentor-1 img {
-    width: 200px;
-}
-.mentor .wrapper-mentor .mentor-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 50px;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-.mentor .wrapper-mentor .mentor-2 img {
-    width: 200px;
-}
-.wrapper-mentor .mentor-1 .apple,
-.dunkin,
-.google {
-    padding: 20px 35px;
-    background-color: #fff;
-    border-radius: 20px;
-}
-.wrapper-mentor .mentor-2 .spotify,
-.subway,
-.kfc {
-    padding: 20px 35px;
-    background-color: #fff;
-    border-radius: 20px;
 }
 
 /* ========== ARTIKEL GALLERY ========== */
