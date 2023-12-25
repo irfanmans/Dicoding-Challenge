@@ -9,7 +9,7 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <title>Document</title>
     </head>
-    <body style="height: 1000vh">
+    <body>
         <header class="wrapper-header">
             <div class="logo">
                 <h1>Gallery</h1>
@@ -19,7 +19,7 @@
                     <li class="item-list"><a href="#home">Home</a></li>
                     <li class="item-list"><a href="#about">About</a></li>
                     <li class="item-list"><a href="#gallery">Gallery</a></li>
-                    <li class="item-list"><a href="">Contact</a></li>
+                    <li class="item-list"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="humburger" id="humburger-menu">
@@ -61,45 +61,45 @@
                         <ul>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Pencatatan Transaksi</p>
+                                <p>Tampilan Foto Utama</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Manajemen Inventaris</p>
+                                <p>Thumbnail atau Grid Foto</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Proses Pembayaran</p>
+                                <p>Detail Foto</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Laporan dan Analisis</p>
+                                <p>Filter atau Kategori</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Keamanan dan Otentikasi</p>
+                                <p>Mode Tampilan Penuh</p>
                             </li>
                         </ul>
                         <ul>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Integrasi Keuangan</p>
+                                <p>Efek Transisi</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Manajemen Pelanggan</p>
+                                <p>Responsif</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Diskon dan Promosi</p>
+                                <p>Informasi Galeri</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Dukungan untuk Barcode</p>
+                                <p>Informasi Teknis</p>
                             </li>
                             <li>
                                 <i class="fa-solid fa-circle-arrow-right"></i>
-                                <p>Integrasi dengan Perangkat Keras</p>
+                                <p>Navigasi Menu</p>
                             </li>
                         </ul>
                     </div>
@@ -173,120 +173,215 @@
                 </div>
                 <div class="wrapper-gallery-img">
                     <div class="card-1">
-                        <img src="assets/images/gallery1.jpg" height="180" />
+                        <img src="assets/images/gallery1.jpg" height="180" onclick="openModal('assets/images/gallery1.jpg')" />
                         <div class="card-detail">
                             <h1>Beruang</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Beruang adalah mamalia besar yang terkenal dengan ciri khasnya yang mencolok, yaitu tubuh besar, moncong panjang, dan cakar tajam. Beruang terdapat di berbagai bagian dunia, baik di belahan utara maupun
+                                selatan, dan ditemukan di berbagai habitat, termasuk hutan, pegunungan, tundra, dan padang rumput.
+                            </p>
                         </div>
                     </div>
                     <div class="card-2">
-                        <img src="assets/images/gallery2.jpg" height="180" />
+                        <img src="assets/images/gallery2.jpg" height="180" onclick="openModal('assets/images/gallery2.jpg')" />
                         <div class="card-detail">
                             <h1>Serigala</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Serigala adalah mamalia karnivora sosial yang termasuk dalam keluarga Canidae. Mereka terkenal dengan penampilan yang elegan, insting berburu yang tajam, dan kemampuan beradaptasi tinggi. Berikut adalah
+                                beberapa ciri umum dan deskripsi tentang hewan serigala
+                            </p>
                         </div>
                     </div>
                     <div class="card-3">
-                        <img src="assets/images/gallery3.jpg" height="180" />
+                        <img src="assets/images/gallery3.jpg" height="180" onclick="openModal('assets/images/gallery3.jpg')" />
                         <div class="card-detail">
                             <h1>Panda</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Panda adalah mamalia yang terkenal dengan penampilannya yang lucu dan ekspresif, khususnya berkat warna bulunya yang hitam dan putih yang khas. Berikut adalah beberapa ciri umum dan deskripsi tentang hewan
+                                panda
+                            </p>
                         </div>
                     </div>
                     <div class="card-4">
-                        <img src="assets/images/gallery6.jpg" height="180" />
+                        <img src="assets/images/gallery6.jpg" height="180" onclick="openModal('assets/images/gallery6.jpg')" />
                         <div class="card-detail">
                             <h1>Harimau Sumatera</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>Harimau Sumatera (Panthera tigris sumatrae) adalah salah satu subspesies harimau yang ditemukan di pulau Sumatera, Indonesia. Berikut adalah beberapa ciri umum dan deskripsi tentang hewan harimau Sumatera</p>
                         </div>
                     </div>
                     <div class="card-5">
-                        <img src="assets/images/gallery5.jpg" height="180" />
+                        <img src="assets/images/gallery5.jpg" height="180" onclick="openModal('assets/images/gallery5.jpg')" />
                         <div class="card-detail">
                             <h1>Gajah</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>Gajah adalah mamalia raksasa yang terkenal dengan ukuran tubuhnya yang besar, belalai panjang, dan gading yang melengkung. Berikut adalah deskripsi lebih rinci tentang hewan gajah</p>
                         </div>
                     </div>
 
                     <div class="card-6">
-                        <img src="assets/images/gallery4.jpg" height="180" />
+                        <img src="assets/images/gallery4.jpg" height="180" onclick="openModal('assets/images/gallery4.jpg')" />
                         <div class="card-detail">
                             <h1>Kura Kura</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Kura-kura adalah reptil berukuran kecil hingga besar yang dikenal dengan cangkang pelindungnya yang keras dan kemampuan untuk menarik kepala dan kaki mereka ke dalam cangkang. Berikut adalah deskripsi lebih
+                                lanjut tentang hewan kura-kura
+                            </p>
                         </div>
                     </div>
                     <div class="card-7">
-                        <img src="assets/images/gallery7.jpg" height="180" />
+                        <img src="assets/images/gallery7.jpg" height="180" onclick="openModal('assets/images/gallery7.jpg')" />
                         <div class="card-detail">
                             <h1>Ikan Giru</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Ikan giru atau ikan badut (clownfish) adalah kelompok ikan laut yang terkenal karena warna cerah dan pola garis-garis unik pada tubuhnya. Berikut adalah deskripsi lebih rinci tentang ikan badut. Ikan badut
+                                telah menjadi ikon dalam dunia kelautan dan kehidupan laut, terutama karena popularitas karakter Nemo dalam film animasi "Finding Nemo" dan sekuelnya
+                            </p>
                         </div>
                     </div>
                     <div class="card-8">
-                        <img src="assets/images/gallery8.jpg" height="180" />
+                        <img src="assets/images/gallery8.jpg" height="180" onclick="openModal('assets/images/gallery8.jpg')" />
                         <div class="card-detail">
                             <h1>Ikan Discus</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Ikan Discus adalah ikan air tawar yang berasal dari Sungai Amazon di Amerika Selatan. Mereka memiliki bentuk tubuh cakram, warna cerah yang bervariasi, dan sirip anal serta dorsal yang panjang. Ikan ini
+                                dikenal sebagai pemakan omnivora dan biasanya hidup dalam kelompok
+                            </p>
                         </div>
                     </div>
                     <div class="card-9">
-                        <img src="assets/images/gallery9.avif" height="180" />
+                        <img src="assets/images/gallery9.avif" height="180" onclick="openModal('assets/images/gallery9.avif')" />
                         <div class="card-detail">
                             <h1>Bintang Laut</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Bintang laut adalah hewan laut yang terkenal dengan bentuk tubuhnya yang bintang dan cangkang keras di bagian luar. Mereka termasuk dalam kelompok echinodermata dan memiliki sistem vaskular air yang unik.
+                                Bintang laut dapat ditemukan di dasar laut di berbagai habitat, mulai dari perairan dangkal hingga kedalaman laut yang lebih dalam
+                            </p>
                         </div>
                     </div>
                     <div class="card-10">
-                        <img src="assets/images/gallery10.jpg" height="180" />
+                        <img src="assets/images/gallery10.jpg" height="180" onclick="openModal('assets/images/gallery10.jpg')" />
                         <div class="card-detail">
                             <h1>Ikan Hiu</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Hiu adalah kelompok ikan cartilaginous yang terkenal dengan tubuh yang aerodinamis, sirip-sirip yang besar, dan gigi yang kuat. Hiu telah menjadi ikon dalam budaya populer dan sering kali disalahpahami
+                                sebagai makhluk yang berbahaya. Beberapa spesies, seperti hiu paus dan hiu karpet, terutama terkenal karena ukuran dan penampilan mereka yang unik
+                            </p>
                         </div>
                     </div>
                     <div class="card-11">
-                        <img src="assets/images/gallery11.jpg" height="180" />
+                        <img src="assets/images/gallery11.jpg" height="180" onclick="openModal('assets/images/gallery11.jpg')" />
                         <div class="card-detail">
                             <h1>Burung Robin</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Burung robin adalah spesies burung pemakan serangga yang terkenal dengan bulu dada oranye-merah cerah. Berikut adalah deskripsi singkat tentang burung robin. Burung robin sering kali dianggap sebagai burung
+                                yang ramah dan sering terlihat di sekitar permukiman manusia
+                            </p>
                         </div>
                     </div>
                     <div class="card-12">
-                        <img src="assets/images/gallery12.jpg" height="180" />
+                        <img src="assets/images/gallery12.jpg" height="180" onclick="openModal('assets/images/gallery12.jpg')" />
                         <div class="card-detail">
                             <h1>Burung Kicau</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Burung kicau adalah kelompok burung yang terkenal karena kemampuan mereka dalam berkicau dengan suara yang indah dan beragam. Berikut adalah deskripsi umum tentang burung kicau. Burung kicau sering menjadi
+                                hewan peliharaan populer dan menjadi daya tarik bagi para penggemar burung
+                            </p>
                         </div>
                     </div>
                     <div class="card-13">
-                        <img src="assets/images/gallery13.jpg" height="180" />
+                        <img src="assets/images/gallery13.jpg" height="180" onclick="openModal('assets/images/gallery13.jpg')" />
                         <div class="card-detail">
                             <h1>Burung Kenari</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Burung kenari (Serinus canaria domestica) adalah jenis burung kicau yang terkenal karena keindahan warna bulu dan kemampuan bernyanyi yang melodi. Burung kenari telah dihasilkan melalui seleksi buatan untuk
+                                menghasilkan variasi warna dan jenis kicauan yang unik. Mereka populer sebagai hewan peliharaan karena kecantikan bulu dan kemampuan bernyanyi yang menarik
+                            </p>
                         </div>
                     </div>
                     <div class="card-14">
-                        <img src="assets/images/gallery14.jpg" height="180" />
+                        <img src="assets/images/gallery14.jpg" height="180" onclick="openModal('assets/images/gallery14.jpg')" />
                         <div class="card-detail">
                             <h1>Burung Nuri</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Burung nuri merupakan kelompok burung yang dikenal dengan warna bulu yang cerah, kemampuan berbicara, dan paruh yang khas. Burung nuri adalah hewan yang sangat populer di kalangan pecinta burung karena
+                                kecerdasan, warna-warni bulu, dan kemampuan berbicara yang menarik
+                            </p>
                         </div>
                     </div>
                     <div class="card-15">
-                        <img src="assets/images/gallery15.jpg" height="180" />
+                        <img src="assets/images/gallery15.jpg" height="180" onclick="openModal('assets/images/gallery15.jpg')" />
                         <div class="card-detail">
                             <h1>Burung Tledekan</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Burung tledekan adalah salah satu jenis burung yang tergolong dalam keluarga Estrildidae. Burung tledekan dikenal sebagai burung yang ceria, energetik, dan memiliki keindahan warna bulu yang menarik. Mereka
+                                menjadi favorit di kalangan pecinta burung karena sifat mereka yang ramah dan suara berkicau yang menghibur
+                            </p>
                         </div>
                     </div>
                     <div class="card-16">
-                        <img src="assets/images/gallery16.jpg" height="180" />
+                        <img src="assets/images/gallery16.jpg" height="180" onclick="openModal('assets/images/gallery16.jpg')" />
                         <div class="card-detail">
                             <h1>Burung Pleci</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum est commodi eaque. Culpa porro vitae voluptates doloribus vel rem cumque!</p>
+                            <p>
+                                Burung pleci adalah hewan yang populer di kalangan pecinta burung karena kecantikan bulu, suara kicau yang ceria, dan ukurannya yang cocok untuk pemeliharaan sebagai hewan peliharaan di rumah. Burung pleci
+                                (Zosterops spp.), juga dikenal sebagai burung mata putih atau pleci jawa, adalah burung kecil yang termasuk dalam famili Zosteropidae.
+                            </p>
                         </div>
+                    </div>
+                    <div class="modal" id="myModal">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <img class="modal-content" id="modalImg" />
+                        <div id="caption"></div>
                     </div>
                 </div>
             </article>
+            <article class="contact" id="contact">
+                <div class="title-contact">
+                    <span>Contact</span>
+                    <h1>Hubungi Kami</h1>
+                </div>
+                <div class="wrapper-main-contact">
+                    <div class="icon-contact">
+                        <h1>Media Sosial Kami</h1>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="wrapper-form">
+                        <form id="contactForm">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required />
+
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required />
+
+                            <label for="message">Pesan:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+
+                            <button type="submit">Kirim Pesan</button>
+                        </form>
+                    </div>
+                </div>
+            </article>
+            <footer class="footer">
+                <div class="main-footer">
+                    <p>Copy Right &copy; | Irfan Mulya 2023</p>
+                </div>
+            </footer>
         </main>
 
         <script src="assets/js/script.js"></script>

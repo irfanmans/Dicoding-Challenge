@@ -305,7 +305,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     column-gap: 20px;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 .gallery .wrapper-gallery-img .card-1,
 .card-2,
@@ -326,8 +326,28 @@ body {
     width: 19rem;
     margin: 0 auto;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    cursor: pointer;
+}
+.gallery .wrapper-gallery-img .card-1:hover,
+.gallery .wrapper-gallery-img .card-2:hover,
+.gallery .wrapper-gallery-img .card-3:hover,
+.gallery .wrapper-gallery-img .card-4:hover,
+.gallery .wrapper-gallery-img .card-5:hover,
+.gallery .wrapper-gallery-img .card-6:hover,
+.gallery .wrapper-gallery-img .card-7:hover,
+.gallery .wrapper-gallery-img .card-8:hover,
+.gallery .wrapper-gallery-img .card-9:hover,
+.gallery .wrapper-gallery-img .card-10:hover,
+.gallery .wrapper-gallery-img .card-11:hover,
+.gallery .wrapper-gallery-img .card-12:hover,
+.gallery .wrapper-gallery-img .card-13:hover,
+.gallery .wrapper-gallery-img .card-14:hover,
+.gallery .wrapper-gallery-img .card-15:hover,
+.gallery .wrapper-gallery-img .card-16:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 .gallery .wrapper-gallery-img .card-1 img,
 .card-2 img,
@@ -356,4 +376,151 @@ body {
 .card-detail p {
     font-size: 14px;
     margin-top: 10px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    text-align: justify;
+}
+/* CSS untuk modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 76px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 20px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ========== ARTIKEL CONTACT ========== */
+.contact {
+    margin-top: 50px;
+    padding: 80px 80px 0 80px;
+}
+.contact .title-contact span {
+    font-family: "Ephesis", cursive;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ee4a62;
+    letter-spacing: 1px;
+    display: block;
+    text-align: center;
+}
+.contact .title-contact h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.wrapper-main-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-contact {
+    flex: 1;
+}
+.wrapper-form {
+    max-width: 600px;
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004080;
+}
+.wrapper-main-contact .icon-contact {
+    padding: 20px 0;
+    text-align: center;
+}
+.wrapper-main-contact .icon-contact h1 {
+    margin-bottom: 20px;
+}
+.wrapper-main-contact .icon-contact a {
+    text-decoration: none;
+}
+.wrapper-main-contact .icon-contact i {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 100%;
+    gap: 10px;
+    color: #152c5b;
+    cursor: pointer;
+    border: 1px solid #797979;
+    column-gap: 10px;
+}
+.wrapper-main-contact .icon-contact i:hover {
+    background-color: #581fc1;
+    transition: all 0.5s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    color: #fff;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+    margin-top: 70px;
+    background-color: #fcfcfc;
+}
+.footer .main-footer {
+    padding: 25px 0;
+    text-align: center;
 }
